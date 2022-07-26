@@ -9,11 +9,11 @@ npm install motor-bridge-react-native
 ## Usage
 
 ```js
-import { multiply } from "motor-bridge-react-native";
+import { checkBridge } from "motor-bridge-react-native";
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await checkBridge("the brigde is working!");
 ```
 
 ## Contributing
