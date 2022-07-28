@@ -1,5 +1,5 @@
 import Foundation
-import MotorKit
+// import MotorKit
 
 @objc(MotorBridgeReactNative)
 class MotorBridgeReactNative: NSObject {
@@ -17,10 +17,11 @@ class MotorBridgeReactNative: NSObject {
        resolve: @escaping RCTPromiseResolveBlock,
        rejecter reject: @escaping RCTPromiseRejectBlock
      ) -> Void {
-       let motor = MotorKit()
-       let account = motor.createAccount(password: password)
+      //  let motor = MotorKit()
+      //  let account = motor.createAccount(password: password)
 
-       resolve(account)
+      //  resolve(account)
+      resolve('account')
      }
 
      @objc func loginAccount(
@@ -30,9 +31,10 @@ class MotorBridgeReactNative: NSObject {
        pskKey: Data?,
        resolve: @escaping RCTPromiseResolveBlock,
        rejecter reject: @escaping RCTPromiseRejectBlock) -> Void {
-       let motor = MotorKit()
-       let isLoggedIn = motor.loginAccount(did: did, password: password, dscKey: dscKey, pskKey: pskKey)
+      //  let motor = MotorKit()
+      //  let isLoggedIn = motor.loginAccount(did: did, password: password, dscKey: dscKey, pskKey: pskKey)
 
-       resolve(isLoggedIn)
+      //  resolve(isLoggedIn)
+      resolve('isLoggedId')
      }
 }
