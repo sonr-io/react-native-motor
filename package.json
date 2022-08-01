@@ -1,6 +1,6 @@
 {
   "name": "@sonr-io/react-native-motor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
