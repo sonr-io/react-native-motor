@@ -1,5 +1,5 @@
 {
-  "name": "motor-bridge-react-native",
+  "name": "@sonr-io/react-native-motor",
   "version": "0.0.1",
   "description": "test",
   "main": "lib/commonjs/index",
