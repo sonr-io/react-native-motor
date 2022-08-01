@@ -21,7 +21,7 @@ class MotorBridgeReactNative: NSObject {
       //  let account = motor.createAccount(password: password)
 
       //  resolve(account)
-      resolve('account')
+      resolve("account")
      }
 
      @objc func loginAccount(
@@ -35,6 +35,6 @@ class MotorBridgeReactNative: NSObject {
       //  let isLoggedIn = motor.loginAccount(did: did, password: password, dscKey: dscKey, pskKey: pskKey)
 
       //  resolve(isLoggedIn)
-      resolve('isLoggedId')
+      resolve("isLoggedId")
      }
 }
